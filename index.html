@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./Images/fav.jpg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Tundra2</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div id="main">
+    <div class=" w3-top w3-display-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+          <a href="#home" class="w3-bar-item w3-button"><b>The</b> Tundra Music Site</a>
+          <!-- Float links to the right. Hide them on small screens -->
+          
+          <div class="w3-right w3-hide-small">
+            <div class="w3-dropdown-hover">
+                <button onclick="myFunction()" class="w3-bar-item">Tundra</button>
+                <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+                  <a href="#" class="w3-bar-item w3-button w3-animate-bottom">Rock</a>
+                  <a href="#" class="w3-bar-item w3-button w3-animate-bottom">&</a>
+                  <a href="#" class="w3-bar-item w3-button w3-animate-bottom">Roll</a>
+                </div>
+              </div>
+            <a href="#projects" class="w3-bar-item w3-button">Sound</a>
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large"
+        onclick="w3_close()">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Rock</a>
+        <a href="#" class="w3-bar-item w3-button">Funk</a>
+        <a href="#" class="w3-bar-item w3-button">Blues</a>
+      </div>
+
+    <div class="cont-100vh w3-blue w3-rest">
+        <div class="w3-animate-fading w3-display-middle">
+        <h1><b>Давай посмотрим что у нас есть послушать и посмотреть...</b></h1>
+        </div>
+    </div>    
+
+    <div class="cont-100vh w3-display-container w3-padding w3-green w3-hover-yellow w3-half"> 
+        <div class="w3-display-middle w3-center reveal">
+        
+        <h1>Слушаем Satellite</h1>
+        <audio controls src="./Audio/Satellite.mp3"></audio>
+        <p>TŪNDRA объективизировалась в середине 2020 года с целью творческой самореализации и, конечно же, захвата власти над миром в ближайшей перспективе.
+            Музыка группы – это олд скул рок в современном прочтении. Песни плотно нафаршированы "глубинным смыслом", пронзительным вокалом, яркими гитарными партиями и тесным взаимодействием бас-гитары и барабанов, под которые можно колесить на своём байке по дорогам мира.</p>
+          <p>Все права защищены(с)</p>
+        </div>
+    </div> 
+
+    <div class="cont-100vh w3-padding w3-display-container w3-theme-d1 w3-hover-orange w3-center w3-rest "> 
+        <div class="w3-display-middle">
+        <h1>Смотрим тоже Satellite, но вживую</h1>
+            <video controls src="./Video/Satellite.mp4"></video>
+            <p>Одно из выступлений в Lion`s Head PUB</p>
+            </div>
+    </div> 
+
+    <div class="cont-100vh w3-metro-dark-blue w3-rest w3-display-container">
+        <div class="w3-display-middle">
+            
+        <div class="container_ofus">
+            <div class="flipper" id="target">
+                <div class="front">
+                  <a href="#target" class="home button">о нас</a>
+               
+                <h1>Tundra</h1>
+                  </div>
+                <div class="back">
+                  <a href="#close" class="close button"><i class="fa fa-home"></i></a>
+                  <div class="inner">
+                    <h2>о нас</h2>
+                    <p>Группа Tundra это не только классический рок, но и hard blues, а так же веселые каверы и грустные баллады.(с)</p>
+                    </div>
+                  </div>
+                </div>
+
+
+        </div>
+    </div> 
+</div>
+   <div class="w3-display-container">
+    <div class="w3-bottom w3-white w3-center">
+        
+        <button class="w3-button w3-white w3-xlarge" onclick="w3_open()">☰</button>
+     </div>
+   </div> 
+   <!-- Sidebar -->
+ 
+  <script src="./script.js"></script>
+</body>
+</html>
+
